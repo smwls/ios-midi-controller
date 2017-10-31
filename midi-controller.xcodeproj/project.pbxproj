@@ -8,12 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		D959EA551F91928D00283A7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D959EA541F91928D00283A7B /* AppDelegate.swift */; };
-		D959EA571F91928D00283A7B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D959EA561F91928D00283A7B /* ViewController.swift */; };
+		D959EA571F91928D00283A7B /* IOSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D959EA561F91928D00283A7B /* IOSViewController.swift */; };
 		D959EA5A1F91928D00283A7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D959EA581F91928D00283A7B /* Main.storyboard */; };
 		D959EA5C1F91928D00283A7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D959EA5B1F91928D00283A7B /* Assets.xcassets */; };
 		D959EA5F1F91928D00283A7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D959EA5D1F91928D00283A7B /* LaunchScreen.storyboard */; };
 		D959EA6A1F91928E00283A7B /* midi_controllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D959EA691F91928E00283A7B /* midi_controllerTests.swift */; };
 		D959EA751F91928E00283A7B /* midi_controllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D959EA741F91928E00283A7B /* midi_controllerUITests.swift */; };
+		D959EAAC1F919DDB00283A7B /* PTManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D959EA9E1F919DDA00283A7B /* PTManager.swift */; };
+		D959EAAF1F919DDB00283A7B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D959EAA01F919DDA00283A7B /* Info.plist */; };
+		D959EAB01F919DDB00283A7B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D959EAA01F919DDA00283A7B /* Info.plist */; };
+		D959EAB11F919DDB00283A7B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D959EAA01F919DDA00283A7B /* Info.plist */; };
+		D959EAB21F919DDB00283A7B /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = D959EAA11F919DDA00283A7B /* LICENSE.txt */; };
+		D959EAB31F919DDB00283A7B /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = D959EAA11F919DDA00283A7B /* LICENSE.txt */; };
+		D959EAB41F919DDB00283A7B /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = D959EAA11F919DDA00283A7B /* LICENSE.txt */; };
+		D959EAB51F919DDB00283A7B /* PTChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = D959EAA51F919DDA00283A7B /* PTChannel.m */; };
+		D959EAB81F919DDB00283A7B /* PTProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = D959EAA81F919DDA00283A7B /* PTProtocol.m */; };
+		D959EABB1F919DDB00283A7B /* PTUSBHub.m in Sources */ = {isa = PBXBuildFile; fileRef = D959EAAA1F919DDA00283A7B /* PTUSBHub.m */; };
+		D959EAC51F91A00900283A7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D959EAC41F91A00900283A7B /* AppDelegate.swift */; };
+		D959EAC71F91A00900283A7B /* MacViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D959EAC61F91A00900283A7B /* MacViewController.swift */; };
+		D959EAC91F91A00900283A7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D959EAC81F91A00900283A7B /* Assets.xcassets */; };
+		D959EACC1F91A00900283A7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D959EACA1F91A00900283A7B /* Main.storyboard */; };
+		D959EAD81F91A00900283A7B /* midi_receiverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D959EAD71F91A00900283A7B /* midi_receiverTests.swift */; };
+		D959EAE31F91A00900283A7B /* midi_receiverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D959EAE21F91A00900283A7B /* midi_receiverUITests.swift */; };
+		D959EAEE1F91A0EB00283A7B /* PTManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D959EA9E1F919DDA00283A7B /* PTManager.swift */; };
+		D959EAF01F91A0F700283A7B /* PTChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = D959EAA51F919DDA00283A7B /* PTChannel.m */; };
+		D959EAF11F91A0F700283A7B /* PTProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = D959EAA81F919DDA00283A7B /* PTProtocol.m */; };
+		D959EAF21F91A0F700283A7B /* PTUSBHub.m in Sources */ = {isa = PBXBuildFile; fileRef = D959EAAA1F919DDA00283A7B /* PTUSBHub.m */; };
+		D96BD0831FA6A43400B378BE /* MidiNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96BD0821FA6A43400B378BE /* MidiNote.swift */; };
+		D9FB36B41F931F5800E6E26B /* AudioKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9FB36B31F931F5700E6E26B /* AudioKit.framework */; };
+		D9FB36B51F931F5800E6E26B /* AudioKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D9FB36B31F931F5700E6E26B /* AudioKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,12 +54,40 @@
 			remoteGlobalIDString = D959EA501F91928D00283A7B;
 			remoteInfo = "midi-controller";
 		};
+		D959EAD41F91A00900283A7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D959EA491F91928D00283A7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D959EAC11F91A00900283A7B;
+			remoteInfo = "midi-receiver";
+		};
+		D959EADF1F91A00900283A7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D959EA491F91928D00283A7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D959EAC11F91A00900283A7B;
+			remoteInfo = "midi-receiver";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D9FB36B61F931F5800E6E26B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D9FB36B51F931F5800E6E26B /* AudioKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		D959EA511F91928D00283A7B /* midi-controller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "midi-controller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D959EA541F91928D00283A7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D959EA561F91928D00283A7B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D959EA561F91928D00283A7B /* IOSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSViewController.swift; sourceTree = "<group>"; };
 		D959EA591F91928D00283A7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D959EA5B1F91928D00283A7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D959EA5E1F91928D00283A7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +98,47 @@
 		D959EA701F91928E00283A7B /* midi-controllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "midi-controllerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D959EA741F91928E00283A7B /* midi_controllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = midi_controllerUITests.swift; sourceTree = "<group>"; };
 		D959EA761F91928E00283A7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D959EA9E1F919DDA00283A7B /* PTManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PTManager.swift; path = "midi-controller/PTManager.swift"; sourceTree = "<group>"; };
+		D959EAA01F919DDA00283A7B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D959EAA11F919DDA00283A7B /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		D959EAA21F919DDA00283A7B /* Peertalk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Peertalk.h; sourceTree = "<group>"; };
+		D959EAA31F919DDA00283A7B /* prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prefix.pch; sourceTree = "<group>"; };
+		D959EAA41F919DDA00283A7B /* PTChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTChannel.h; sourceTree = "<group>"; };
+		D959EAA51F919DDA00283A7B /* PTChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTChannel.m; sourceTree = "<group>"; };
+		D959EAA61F919DDA00283A7B /* PTPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTPrivate.h; sourceTree = "<group>"; };
+		D959EAA71F919DDA00283A7B /* PTProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTProtocol.h; sourceTree = "<group>"; };
+		D959EAA81F919DDA00283A7B /* PTProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTProtocol.m; sourceTree = "<group>"; };
+		D959EAA91F919DDA00283A7B /* PTUSBHub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTUSBHub.h; sourceTree = "<group>"; };
+		D959EAAA1F919DDA00283A7B /* PTUSBHub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTUSBHub.m; sourceTree = "<group>"; };
+		D959EAAB1F919DDA00283A7B /* PeertalkSimple-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "PeertalkSimple-Bridging-Header.h"; path = "midi-controller/PeertalkSimple-Bridging-Header.h"; sourceTree = "<group>"; };
+		D959EAC21F91A00900283A7B /* midi-receiver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "midi-receiver.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D959EAC41F91A00900283A7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D959EAC61F91A00900283A7B /* MacViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacViewController.swift; sourceTree = "<group>"; };
+		D959EAC81F91A00900283A7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D959EACB1F91A00900283A7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D959EACD1F91A00900283A7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D959EACE1F91A00900283A7B /* midi_receiver.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = midi_receiver.entitlements; sourceTree = "<group>"; };
+		D959EAD31F91A00900283A7B /* midi-receiverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "midi-receiverTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D959EAD71F91A00900283A7B /* midi_receiverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = midi_receiverTests.swift; sourceTree = "<group>"; };
+		D959EAD91F91A00900283A7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D959EADE1F91A00900283A7B /* midi-receiverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "midi-receiverUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D959EAE21F91A00900283A7B /* midi_receiverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = midi_receiverUITests.swift; sourceTree = "<group>"; };
+		D959EAE41F91A00900283A7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D96BD0821FA6A43400B378BE /* MidiNote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MidiNote.swift; sourceTree = "<group>"; };
+		D9FB36971F9308F000E6E26B /* CoreMIDI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreMIDI.swift; sourceTree = "<group>"; };
+		D9FB36981F9308F000E6E26B /* Enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		D9FB36991F9308F000E6E26B /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		D9FB369A1F9308F000E6E26B /* MIDIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MIDIClient.swift; sourceTree = "<group>"; };
+		D9FB369B1F9308F000E6E26B /* MIDIEndpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MIDIEndpoint.swift; sourceTree = "<group>"; };
+		D9FB369C1F9308F000E6E26B /* MIDIEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MIDIEvent.swift; sourceTree = "<group>"; };
+		D9FB369D1F9308F000E6E26B /* MIDIInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MIDIInput.swift; sourceTree = "<group>"; };
+		D9FB369E1F9308F000E6E26B /* MIDIOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MIDIOutput.swift; sourceTree = "<group>"; };
+		D9FB369F1F9308F000E6E26B /* MIDIPacketList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MIDIPacketList.swift; sourceTree = "<group>"; };
+		D9FB36A01F9308F000E6E26B /* MIDIPort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MIDIPort.swift; sourceTree = "<group>"; };
+		D9FB36A11F9308F000E6E26B /* MIDIPortMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MIDIPortMap.swift; sourceTree = "<group>"; };
+		D9FB36A21F9308F000E6E26B /* WebMIDIKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebMIDIKit.swift; sourceTree = "<group>"; };
+		D9FB36B01F931DAA00E6E26B /* AudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioKit.framework; path = "../../../Downloads/AudioKit-macOS/AudioKit.framework"; sourceTree = "<group>"; };
+		D9FB36B31F931F5700E6E26B /* AudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AudioKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,16 +163,47 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D959EABF1F91A00900283A7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9FB36B41F931F5800E6E26B /* AudioKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D959EAD01F91A00900283A7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D959EADB1F91A00900283A7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		D959EA481F91928D00283A7B = {
 			isa = PBXGroup;
 			children = (
+				D9FB36B31F931F5700E6E26B /* AudioKit.framework */,
+				D9FB36961F9308F000E6E26B /* WebMIDIKit */,
+				D959EA9F1F919DDA00283A7B /* peertalk */,
+				D959EAAB1F919DDA00283A7B /* PeertalkSimple-Bridging-Header.h */,
+				D959EA9E1F919DDA00283A7B /* PTManager.swift */,
 				D959EA531F91928D00283A7B /* midi-controller */,
 				D959EA681F91928E00283A7B /* midi-controllerTests */,
 				D959EA731F91928E00283A7B /* midi-controllerUITests */,
+				D959EAC31F91A00900283A7B /* midi-receiver */,
+				D959EAD61F91A00900283A7B /* midi-receiverTests */,
+				D959EAE11F91A00900283A7B /* midi-receiverUITests */,
 				D959EA521F91928D00283A7B /* Products */,
+				D9FB36AF1F931DA800E6E26B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,6 +213,9 @@
 				D959EA511F91928D00283A7B /* midi-controller.app */,
 				D959EA651F91928E00283A7B /* midi-controllerTests.xctest */,
 				D959EA701F91928E00283A7B /* midi-controllerUITests.xctest */,
+				D959EAC21F91A00900283A7B /* midi-receiver.app */,
+				D959EAD31F91A00900283A7B /* midi-receiverTests.xctest */,
+				D959EADE1F91A00900283A7B /* midi-receiverUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -98,7 +224,8 @@
 			isa = PBXGroup;
 			children = (
 				D959EA541F91928D00283A7B /* AppDelegate.swift */,
-				D959EA561F91928D00283A7B /* ViewController.swift */,
+				D96BD0821FA6A43400B378BE /* MidiNote.swift */,
+				D959EA561F91928D00283A7B /* IOSViewController.swift */,
 				D959EA581F91928D00283A7B /* Main.storyboard */,
 				D959EA5B1F91928D00283A7B /* Assets.xcassets */,
 				D959EA5D1F91928D00283A7B /* LaunchScreen.storyboard */,
@@ -123,6 +250,84 @@
 				D959EA761F91928E00283A7B /* Info.plist */,
 			);
 			path = "midi-controllerUITests";
+			sourceTree = "<group>";
+		};
+		D959EA9F1F919DDA00283A7B /* peertalk */ = {
+			isa = PBXGroup;
+			children = (
+				D959EAA01F919DDA00283A7B /* Info.plist */,
+				D959EAA11F919DDA00283A7B /* LICENSE.txt */,
+				D959EAA21F919DDA00283A7B /* Peertalk.h */,
+				D959EAA31F919DDA00283A7B /* prefix.pch */,
+				D959EAA41F919DDA00283A7B /* PTChannel.h */,
+				D959EAA51F919DDA00283A7B /* PTChannel.m */,
+				D959EAA61F919DDA00283A7B /* PTPrivate.h */,
+				D959EAA71F919DDA00283A7B /* PTProtocol.h */,
+				D959EAA81F919DDA00283A7B /* PTProtocol.m */,
+				D959EAA91F919DDA00283A7B /* PTUSBHub.h */,
+				D959EAAA1F919DDA00283A7B /* PTUSBHub.m */,
+			);
+			name = peertalk;
+			path = "midi-controller/peertalk";
+			sourceTree = "<group>";
+		};
+		D959EAC31F91A00900283A7B /* midi-receiver */ = {
+			isa = PBXGroup;
+			children = (
+				D959EAC41F91A00900283A7B /* AppDelegate.swift */,
+				D959EAC61F91A00900283A7B /* MacViewController.swift */,
+				D959EAC81F91A00900283A7B /* Assets.xcassets */,
+				D959EACA1F91A00900283A7B /* Main.storyboard */,
+				D959EACD1F91A00900283A7B /* Info.plist */,
+				D959EACE1F91A00900283A7B /* midi_receiver.entitlements */,
+			);
+			path = "midi-receiver";
+			sourceTree = "<group>";
+		};
+		D959EAD61F91A00900283A7B /* midi-receiverTests */ = {
+			isa = PBXGroup;
+			children = (
+				D959EAD71F91A00900283A7B /* midi_receiverTests.swift */,
+				D959EAD91F91A00900283A7B /* Info.plist */,
+			);
+			path = "midi-receiverTests";
+			sourceTree = "<group>";
+		};
+		D959EAE11F91A00900283A7B /* midi-receiverUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D959EAE21F91A00900283A7B /* midi_receiverUITests.swift */,
+				D959EAE41F91A00900283A7B /* Info.plist */,
+			);
+			path = "midi-receiverUITests";
+			sourceTree = "<group>";
+		};
+		D9FB36961F9308F000E6E26B /* WebMIDIKit */ = {
+			isa = PBXGroup;
+			children = (
+				D9FB36971F9308F000E6E26B /* CoreMIDI.swift */,
+				D9FB36981F9308F000E6E26B /* Enums.swift */,
+				D9FB36991F9308F000E6E26B /* Extensions.swift */,
+				D9FB369A1F9308F000E6E26B /* MIDIClient.swift */,
+				D9FB369B1F9308F000E6E26B /* MIDIEndpoint.swift */,
+				D9FB369C1F9308F000E6E26B /* MIDIEvent.swift */,
+				D9FB369D1F9308F000E6E26B /* MIDIInput.swift */,
+				D9FB369E1F9308F000E6E26B /* MIDIOutput.swift */,
+				D9FB369F1F9308F000E6E26B /* MIDIPacketList.swift */,
+				D9FB36A01F9308F000E6E26B /* MIDIPort.swift */,
+				D9FB36A11F9308F000E6E26B /* MIDIPortMap.swift */,
+				D9FB36A21F9308F000E6E26B /* WebMIDIKit.swift */,
+			);
+			name = WebMIDIKit;
+			path = "midi-receiver/WebMIDIKit";
+			sourceTree = "<group>";
+		};
+		D9FB36AF1F931DA800E6E26B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9FB36B01F931DAA00E6E26B /* AudioKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,6 +386,60 @@
 			productReference = D959EA701F91928E00283A7B /* midi-controllerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		D959EAC11F91A00900283A7B /* midi-receiver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D959EAE51F91A00900283A7B /* Build configuration list for PBXNativeTarget "midi-receiver" */;
+			buildPhases = (
+				D959EABE1F91A00900283A7B /* Sources */,
+				D959EABF1F91A00900283A7B /* Frameworks */,
+				D959EAC01F91A00900283A7B /* Resources */,
+				D9FB36B61F931F5800E6E26B /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "midi-receiver";
+			productName = "midi-receiver";
+			productReference = D959EAC21F91A00900283A7B /* midi-receiver.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D959EAD21F91A00900283A7B /* midi-receiverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D959EAE81F91A00900283A7B /* Build configuration list for PBXNativeTarget "midi-receiverTests" */;
+			buildPhases = (
+				D959EACF1F91A00900283A7B /* Sources */,
+				D959EAD01F91A00900283A7B /* Frameworks */,
+				D959EAD11F91A00900283A7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D959EAD51F91A00900283A7B /* PBXTargetDependency */,
+			);
+			name = "midi-receiverTests";
+			productName = "midi-receiverTests";
+			productReference = D959EAD31F91A00900283A7B /* midi-receiverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D959EADD1F91A00900283A7B /* midi-receiverUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D959EAEB1F91A00900283A7B /* Build configuration list for PBXNativeTarget "midi-receiverUITests" */;
+			buildPhases = (
+				D959EADA1F91A00900283A7B /* Sources */,
+				D959EADB1F91A00900283A7B /* Frameworks */,
+				D959EADC1F91A00900283A7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D959EAE01F91A00900283A7B /* PBXTargetDependency */,
+			);
+			name = "midi-receiverUITests";
+			productName = "midi-receiverUITests";
+			productReference = D959EADE1F91A00900283A7B /* midi-receiverUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -205,6 +464,25 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = D959EA501F91928D00283A7B;
 					};
+					D959EAC11F91A00900283A7B = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+					D959EAD21F91A00900283A7B = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D959EAC11F91A00900283A7B;
+					};
+					D959EADD1F91A00900283A7B = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D959EAC11F91A00900283A7B;
+					};
 				};
 			};
 			buildConfigurationList = D959EA4C1F91928D00283A7B /* Build configuration list for PBXProject "midi-controller" */;
@@ -223,6 +501,9 @@
 				D959EA501F91928D00283A7B /* midi-controller */,
 				D959EA641F91928E00283A7B /* midi-controllerTests */,
 				D959EA6F1F91928E00283A7B /* midi-controllerUITests */,
+				D959EAC11F91A00900283A7B /* midi-receiver */,
+				D959EAD21F91A00900283A7B /* midi-receiverTests */,
+				D959EADD1F91A00900283A7B /* midi-receiverUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -232,8 +513,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D959EAAF1F919DDB00283A7B /* Info.plist in Resources */,
 				D959EA5F1F91928D00283A7B /* LaunchScreen.storyboard in Resources */,
 				D959EA5C1F91928D00283A7B /* Assets.xcassets in Resources */,
+				D959EAB21F919DDB00283A7B /* LICENSE.txt in Resources */,
 				D959EA5A1F91928D00283A7B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,10 +525,37 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D959EAB31F919DDB00283A7B /* LICENSE.txt in Resources */,
+				D959EAB01F919DDB00283A7B /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		D959EA6E1F91928E00283A7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D959EAB41F919DDB00283A7B /* LICENSE.txt in Resources */,
+				D959EAB11F919DDB00283A7B /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D959EAC01F91A00900283A7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D959EAC91F91A00900283A7B /* Assets.xcassets in Resources */,
+				D959EACC1F91A00900283A7B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D959EAD11F91A00900283A7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D959EADC1F91A00900283A7B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -259,8 +569,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D959EA571F91928D00283A7B /* ViewController.swift in Sources */,
 				D959EA551F91928D00283A7B /* AppDelegate.swift in Sources */,
+				D959EAAC1F919DDB00283A7B /* PTManager.swift in Sources */,
+				D96BD0831FA6A43400B378BE /* MidiNote.swift in Sources */,
+				D959EA571F91928D00283A7B /* IOSViewController.swift in Sources */,
+				D959EAB51F919DDB00283A7B /* PTChannel.m in Sources */,
+				D959EABB1F919DDB00283A7B /* PTUSBHub.m in Sources */,
+				D959EAB81F919DDB00283A7B /* PTProtocol.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +595,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D959EABE1F91A00900283A7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D959EAEE1F91A0EB00283A7B /* PTManager.swift in Sources */,
+				D959EAC51F91A00900283A7B /* AppDelegate.swift in Sources */,
+				D959EAF01F91A0F700283A7B /* PTChannel.m in Sources */,
+				D959EAF21F91A0F700283A7B /* PTUSBHub.m in Sources */,
+				D959EAF11F91A0F700283A7B /* PTProtocol.m in Sources */,
+				D959EAC71F91A00900283A7B /* MacViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D959EACF1F91A00900283A7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D959EAD81F91A00900283A7B /* midi_receiverTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D959EADA1F91A00900283A7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D959EAE31F91A00900283A7B /* midi_receiverUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -292,6 +636,16 @@
 			isa = PBXTargetDependency;
 			target = D959EA501F91928D00283A7B /* midi-controller */;
 			targetProxy = D959EA711F91928E00283A7B /* PBXContainerItemProxy */;
+		};
+		D959EAD51F91A00900283A7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D959EAC11F91A00900283A7B /* midi-receiver */;
+			targetProxy = D959EAD41F91A00900283A7B /* PBXContainerItemProxy */;
+		};
+		D959EAE01F91A00900283A7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D959EAC11F91A00900283A7B /* midi-receiver */;
+			targetProxy = D959EADF1F91A00900283A7B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -310,6 +664,14 @@
 				D959EA5E1F91928D00283A7B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D959EACA1F91A00900283A7B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D959EACB1F91A00900283A7B /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -432,6 +794,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "SAM.midi-controller";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "midi-controller/PeertalkSimple-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -447,6 +810,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "SAM.midi-controller";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "midi-controller/PeertalkSimple-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -518,6 +882,132 @@
 			};
 			name = Release;
 		};
+		D959EAE61F91A00900283A7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 26EYXPRD93;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "midi-receiver/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "SAM.midi-receiver";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "midi-controller/PeertalkSimple-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		D959EAE71F91A00900283A7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 26EYXPRD93;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "midi-receiver/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "SAM.midi-receiver";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "midi-controller/PeertalkSimple-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		D959EAE91F91A00900283A7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 26EYXPRD93;
+				INFOPLIST_FILE = "midi-receiverTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "SAM.midi-receiverTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/midi-receiver.app/Contents/MacOS/midi-receiver";
+			};
+			name = Debug;
+		};
+		D959EAEA1F91A00900283A7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 26EYXPRD93;
+				INFOPLIST_FILE = "midi-receiverTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "SAM.midi-receiverTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/midi-receiver.app/Contents/MacOS/midi-receiver";
+			};
+			name = Release;
+		};
+		D959EAEC1F91A00900283A7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 26EYXPRD93;
+				INFOPLIST_FILE = "midi-receiverUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "SAM.midi-receiverUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = "midi-receiver";
+			};
+			name = Debug;
+		};
+		D959EAED1F91A00900283A7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 26EYXPRD93;
+				INFOPLIST_FILE = "midi-receiverUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "SAM.midi-receiverUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = "midi-receiver";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -553,6 +1043,33 @@
 			buildConfigurations = (
 				D959EA801F91928E00283A7B /* Debug */,
 				D959EA811F91928E00283A7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D959EAE51F91A00900283A7B /* Build configuration list for PBXNativeTarget "midi-receiver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D959EAE61F91A00900283A7B /* Debug */,
+				D959EAE71F91A00900283A7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D959EAE81F91A00900283A7B /* Build configuration list for PBXNativeTarget "midi-receiverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D959EAE91F91A00900283A7B /* Debug */,
+				D959EAEA1F91A00900283A7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D959EAEB1F91A00900283A7B /* Build configuration list for PBXNativeTarget "midi-receiverUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D959EAEC1F91A00900283A7B /* Debug */,
+				D959EAED1F91A00900283A7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "WebMIDIKit",
+        "repositoryURL": "https://github.com/adamnemecek/webmidikit",
+        "state": {
+          "branch": null,
+          "revision": "b40e74e47f34ecba4c4e7c60f9c56f2e208b0031",
+          "version": "1.0.5"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

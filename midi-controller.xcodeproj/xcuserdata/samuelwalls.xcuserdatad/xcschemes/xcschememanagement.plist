@@ -7,7 +7,30 @@
 		<key>midi-controller.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>midi-receiver.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>D959EAC11F91A00900283A7B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D959EAD21F91A00900283A7B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D959EADD1F91A00900283A7B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
