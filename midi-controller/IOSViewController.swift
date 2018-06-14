@@ -16,41 +16,7 @@ class IOSViewController: UIViewController, UICollectionViewDelegateFlowLayout, U
     
     let ptManager = PTManager.instance
     let colors: [UIColor] = [.green, UIColor(red: 0, green: 0.5, blue: 0.5, alpha: 1.0), .cyan, UIColor(red: 0, green: 0.5, blue: 1.0, alpha: 1.0), .blue, UIColor(red: 0.5, green: 0, blue: 1.0, alpha: 1.0), .magenta, UIColor(red: 1.0, green: 0, blue: 0.5, alpha: 1.0), .red, .orange, .yellow, UIColor(red: 0.5, green: 5.0, blue: 0, alpha: 1.0)]
-//    @IBAction func didPressDownMidiButton(_ sender: Any) {
-//        if (ptManager.isConnected) {
-//            ptManager.sendObject(object: 1, type: 100)
-//        } else {
-//            showAlert()
-//        }
-//    }
-//    @IBAction func didPressUpMidiButton(_ sender: UIButton) {
-//        if (ptManager.isConnected) {
-//            ptManager.sendObject(object: 2, type: 100)
-//        } else {
-//            showAlert()
-//        }
-//    }
-    
-//    func buttonDownActionCreator(_ note: String, ofType type: String) -> ((UIButton) -> ()) {
-//        return {
-//            (button: UIButton) -> () in
-//                if (self.ptManager.isConnected) {
-//                    self.ptManager.sendObject(object: note, type: 100)
-//                } else {
-//                    self.showAlert()
-//                }
-//        }
-//    }
-//    func buttonUpActionCreator(_ note: String) -> ((UIButton) -> ()) {
-//        return {
-//            (button: UIButton) -> () in
-//            if (self.ptManager.isConnected) {
-//                self.ptManager.sendObject(object: note, type: 100)
-//            } else {
-//                self.showAlert()
-//            }
-//        }
-//    }
+
     
     var collectionView: TransparentCollectionView!
     var midiNoteCollection: MidiNoteCollection!
@@ -58,7 +24,7 @@ class IOSViewController: UIViewController, UICollectionViewDelegateFlowLayout, U
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        midiNoteCollection = MidiNoteCollection(28, 20, 100)
+        midiNoteCollection = MidiNoteCollection(28, 12, 100)
         let layout: UICollectionViewFlowLayout = UICollectionViewFlowLayout()
         let screenSize = UIScreen.main.bounds
         let cellSize = (screenSize.width)/4 - 2
@@ -155,13 +121,7 @@ extension IOSViewController: PTManagerDelegate {
     }
     
     func peertalk(didReceiveData data: Data, ofType type: UInt32) {
-//        if type == PTType.number.rawValue {
-//            let count = data.convert() as! Int
-//            self.label.text = "\(count)"
-//        } else if type == PTType.image.rawValue {
-//            let image = UIImage(data: data)
-//            self.imageView.image = image
-//        }
+
     }
     
     func peertalk(didChangeConnection connected: Bool) {
@@ -219,17 +179,4 @@ class TransparentCollectionView: UICollectionView {
         return hitView
     }
 }
-//class MidiButton: UIButton {
-//
-//    var id: Int
-//
-//    required init(_ id: Int) {
-//        self.id = id
-//        super.init(frame: CGRectZero)
-//    }
-//
-//    required init(coder aDecoder: NSCoder) {
-//        fatalError("init(coder:) has not been implemented")
-//    }
-//}
 
